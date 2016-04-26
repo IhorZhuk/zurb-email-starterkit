@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 
 //STYLES
 gulp.task('styles', function () {
-  return gulp.src('./scss/foundation.scss')
+  return gulp.src('./scss/styles.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./dist'));
 });
